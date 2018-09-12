@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.988 16.405">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #d0d0d0;
+      }
+
+      .cls-3 {
+        fill: #e5e5e5;
+      }
+    </style>
+  </defs>
+  <g id="Telegram" transform="translate(0 0)">
+    <path id="Path_71" data-name="Path 71" class="cls-1" d="M18.988.582l-3,15.141a1.112,1.112,0,0,1-1.575.546l-6.93-5.313L4.959,9.738.717,8.31S.066,8.079,0,7.575.738,6.8.738,6.8L17.6.183S18.988-.426,18.988.582Z" transform="translate(0 0)"/>
+    <path id="Path_72" data-name="Path 72" class="cls-2" d="M80.711,61.818s-.2-.019-.454-.817-1.533-5-1.533-5l10.185-6.468s.588-.357.567,0c0,0,.105.063-.21.357s-8,7.2-8,7.2" transform="translate(-73.765 -46.265)"/>
+    <path id="Path_73" data-name="Path 73" class="cls-3" d="M113.458,175.258l-2.741,2.5a.48.48,0,0,1-.449.061l.525-4.642" transform="translate(-103.321 -162.266)"/>
+  </g>
+</svg>

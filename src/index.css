@@ -1,0 +1,607 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+  margin: 0;
+  padding: 0;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: y;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #2e3042;
+  font-weight: 300;
+  background-color: #fff;
+}
+img {
+  max-width: 100%;
+}
+.Home .TabMenu {
+  background: #7058fa;
+  background: linear-gradient(135deg, #7058fa 59%, #22a8ff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7058fa",endColorstr="#22a8ff",GradientType=1);
+}
+.Subscribe button {
+  background: #6759f8;
+  background: linear-gradient(45deg, #6759f8, #2275ff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6759f8",endColorstr="#2275ff",GradientType=1);
+}
+@keyframes a {
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+@-webkit-keyframes a {
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+.bounce {
+  animation: a 1s infinite alternate;
+  -webkit-animation: a 1s infinite alternate;
+}
+.flex {
+  display: flex;
+}
+a,
+a:visited {
+  cursor: pointer;
+  text-decoration: none;
+  color: #192f7d;
+}
+a:hover,
+a:visited:hover {
+  color: #122567;
+}
+p {
+  margin-bottom: 20px;
+}
+h1,
+h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.4rem;
+}
+@media (max-width: 800px) {
+  h1,
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+}
+.Home .CenterContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Home .Hero {
+  background-image: url(/img/hero-image-sm.jpg);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 600px;
+  height: 100vh;
+  padding: 35vh 20px;
+  background-color: #0a0120;
+  position: relative;
+}
+@media (max-width: 800px) {
+  .Home .Hero {
+    padding: 32vh 20px;
+  }
+}
+.Home .Hero h1 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.Home .Hero h2 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.8rem;
+}
+.Home .Hero .Scroll {
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 0.2rem;
+}
+.Home .Hero .Scroll p {
+  margin-bottom: 25px;
+}
+.Home .Featured {
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 20px solid #0a0120;
+}
+.Home .Featured h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.Home .Featured a {
+  display: inline-block;
+  margin: 15px;
+}
+.Home .Featured img {
+  height: 40px;
+  transition-duration: 0.3s;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+.Home .Featured img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+.Home .About .Intro {
+  background-color: #fff;
+  padding: 150px 30px;
+}
+.Home .About .Intro h2 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #13002b;
+}
+.Home .About .Intro p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.Home .Description {
+  background-color: #f2f5fa;
+  margin-top: -40px;
+}
+.Home .HomeTabs {
+  text-align: center;
+  top: -33px;
+  position: relative;
+}
+.Home .TabMenu {
+  padding: 25px;
+  margin: 0 auto;
+  display: inline-block;
+  border-radius: 80px;
+}
+.Home .TabMenu a {
+  color: #fff;
+  padding: 8px 30px;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  border-right: 1px solid #8073d3;
+}
+.Home .TabMenu a:last-child {
+  border-right: 0;
+}
+.Home .TabMenu a.active {
+  opacity: 0.5;
+}
+@media (max-width: 800px) {
+  .Home .TabMenu {
+    border-radius: 0;
+  }
+  .Home .TabMenu a {
+    display: block;
+    border-right: none;
+  }
+}
+.Home .TabContent {
+  margin: 120px 30px;
+}
+.Home .TabContent .TabImage {
+  margin-top: 20px;
+}
+@media (min-width: 800px) {
+  .Home .TabContent .TabImage {
+    margin: 100px;
+    width: 380px;
+  }
+  .Home .TabContent .TabImage.Primary {
+    width: 1100px;
+  }
+}
+@media (max-width: 800px) {
+  .Home .TabContent .TabImage {
+    width: 60%;
+  }
+  .Home .TabContent .TabImage.Primary {
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .Home .TabContent .TabItem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+.Home .TabContent .TabItem .TabText {
+  max-width: 500px;
+  text-align: left;
+}
+.Home .TabContent .TabItem .TabText h2 {
+  margin-bottom: 35px;
+  font-size: 2.6rem;
+  color: #13002b;
+}
+.Home .TabContent .TabItem .TabText p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+.Home .Team {
+  max-width: 940px;
+  margin: 100px auto 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Home .Team .Person {
+  margin-bottom: 40px;
+  width: 300px;
+  text-align: center;
+}
+.Home .Team .Person .Profile {
+  background-image: url(/img/dots-profile-bg.svg);
+  width: 200px;
+  margin: 10px auto;
+}
+.Home .Team .Person .Profile img {
+  width: 180px;
+  margin: 10px;
+  transition-duration: 0.3s;
+}
+.Home .Team .Person .Profile:hover img {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+.Home .Team .Person h3 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.Home .Team .Person h4 {
+  margin-bottom: 10px;
+  color: #2e3042;
+  font-weight: 500;
+  opacity: 0.5;
+}
+@media (max-width: 800px) {
+  .Home .Team .Person {
+    width: 50%;
+  }
+  .Home .Team .Person .Profile {
+    width: 120px;
+  }
+  .Home .Team .Person .Profile img {
+    width: 100px;
+  }
+}
+.Home .Team .Person .SocialLink img {
+  width: 16px;
+}
+.Home .MailingList {
+  background: #382c7d;
+  background: linear-gradient(135deg, #382c7d, #7058fa);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#382c7d",endColorstr="#7058fa",GradientType=1);
+  min-height: 240px;
+  padding: 80px 0;
+}
+.Home .MailingList h3 {
+  text-align: center;
+  color: #fff;
+}
+.Home .Footer {
+  padding: 80px 0 50px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+.Home .Footer .SocialLinks {
+  padding: 20px;
+}
+.Home .Footer .SocialLinks a {
+  padding: 20px;
+  color: #13002b;
+  font-size: 24px;
+  transition-duration: 0.2s;
+}
+.Home .Footer .SocialLinks a:hover {
+  color: #481a81;
+}
+.Menu {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .Menu {
+    display: none;
+  }
+}
+.Menu a {
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  transition-duration: 0.2s;
+  position: relative;
+}
+.Menu .RightArea a:before {
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: transparent;
+  transition-duration: 0.3s;
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+}
+.Menu .RightArea a:hover {
+  color: #fff;
+}
+.Menu .RightArea a:hover:before {
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+}
+.Menu .RightArea a.SocialLink {
+  margin: 10px 0;
+}
+.Menu .RightArea a.SocialLink:hover {
+  transform: scale(1.1);
+}
+.Menu .RightArea a.SocialLink:hover:before {
+  width: 0;
+}
+.Menu .RightArea a.Button {
+  border: 2px solid #606cff;
+  border-radius: 100px;
+  padding: 8px 28px;
+}
+.Menu .RightArea a.Button:before {
+  height: 0;
+}
+.Menu .RightArea a.Button:hover {
+  text-decoration: none;
+  border: 2px solid #2275ff;
+}
+.Menu .Logo {
+  width: 180px;
+}
+.MobileMenu {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  .MobileMenu {
+    display: none;
+  }
+}
+.MobileMenu .Logo {
+  max-width: 170px;
+}
+.MobileMenu .SocialLinks {
+  display: flex;
+}
+.MobileMenu a {
+  display: block;
+  margin-bottom: 20px;
+}
+.MobileMenu a.SocialLink {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 7px;
+}
+.MobileMenu .Button {
+  color: #fff;
+  border: 2px solid #606cff;
+  border-radius: 100px;
+  padding: 9px 28px;
+}
+.MobileMenu .Button:before {
+  height: 0;
+}
+.MobileMenu .Button:hover {
+  text-decoration: none;
+  border: 2px solid #fff;
+}
+.Subscribe {
+  margin: 30px auto;
+  max-width: 420px;
+  padding: 0 20px;
+  position: relative;
+}
+.Subscribe form {
+  display: flex;
+  flex-direction: column;
+}
+.Subscribe input {
+  width: 100%;
+  padding: 13px 25px;
+  border: 2px solid rgba(233, 243, 255, 0.3);
+  border-radius: 30px;
+  background: transparent;
+  outline: none;
+  font-size: 1.1rem;
+  color: #fff;
+  height: 53px;
+}
+.Subscribe input::placeholder {
+  color: rgba(233, 243, 255, 0.56);
+  font-family: inherit;
+  transition-duration: 0.3s;
+}
+.Subscribe input:focus::placeholder {
+  color: #fff;
+}
+.Subscribe button {
+  position: absolute;
+  cursor: pointer;
+  right: 26px;
+  top: 6px;
+  padding: 6px 10px 0 8px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+.Subscribe .Thanks {
+  color: #fff;
+  font-size: 1.2rem;
+  opacity: 0.5;
+  padding-top: 20px;
+}

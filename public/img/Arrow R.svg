@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 102.094 24.569">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.3;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="2.266" y1="1" x2="-0.309" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7058fa"/>
+      <stop offset="1" stop-color="#e9f3ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Arrow_R" data-name="Arrow R" class="cls-1" transform="translate(15 0)">
+    <path id="Union_1" data-name="Union 1" class="cls-2" d="M69.627,24.569l10.2-12.284L69.627,0H76.9l10.2,12.285L76.9,24.569ZM47.461,15.564,43.674,9.006h29.5v6.557Zm-14.214,0L29.461,9.006H39.668l3.786,6.557Zm-14.731,0L14.73,9.006H24.939l3.785,6.557Zm-14.73,0L0,9.006H10.208l3.785,6.557Zm-15,0L-15,9.006H-4.793l3.786,6.557Z" transform="translate(0 0)"/>
+  </g>
+</svg>
