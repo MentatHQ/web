@@ -12,7 +12,7 @@ const teamMembers = [
   {
     name: "Samuel Corso",
     img: "sam",
-    title: "Co-Founder, Product & Technology",
+    title: "Co-Founder, Product & Engineering",
     twitter: "",
     linkedIn: "https://www.linkedin.com/in/samc621/"
   },
@@ -50,6 +50,13 @@ const teamMembers = [
     title: "Growth Hacker",
     twitter: "",
     linkedIn: "https://www.linkedin.com/in/davidambrosedoss/"
+  },
+  {
+    name: "David Bonilla",
+    img: "davidb",
+    title: "Assistant Growth Hacker",
+    twitter: "",
+    linkedIn: "https://www.linkedin.com/in/davidabonilla/"
   },
   {
     name: "Anthony Vega",
