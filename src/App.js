@@ -30,7 +30,7 @@ class App extends Component {
               team
             </a>
             <a
-              href="/pdf/mentat-litepaper-v2.1.pdf"
+              href="https://drive.google.com/open?id=1Kiie4Jl8t70BwWeTi0n6laPr4FseTRs9"
               target="_blank"
               className="Button"
             >
@@ -75,7 +75,7 @@ class App extends Component {
             <img src="/img/logo-white.png" className="Logo" alt="Mentat" />
           </a>
           <a
-            href="/pdf/mentat-litepaper-v2.1.pdf"
+            href="https://drive.google.com/open?id=1Kiie4Jl8t70BwWeTi0n6laPr4FseTRs9"
             target="_blank"
             className="Button"
           >
