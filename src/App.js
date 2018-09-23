@@ -120,10 +120,20 @@ class App extends Component {
           <div className="CenterContent" id="welcome">
             <h1>The next evolution of work.</h1>
             <h2>
-              A decentralized market for on-demand human skill and intelligence,
-              injected seamlessly into any application.
+              Mentat enables anyone, from anywhere in the world, to offer their
+              skills and knowledge in exchange for instant payment.
             </h2>
             <Subscribe />
+          </div>
+          <div className="Video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/m7U7tRVn8ag?rel=0"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            />
           </div>
           <a href="/" onClick={e => navigate(e, "about")} className="Scroll">
             <p>Scroll</p>

@@ -17,7 +17,7 @@ class Subscribe extends React.Component {
 
     return (
       <div className="Subscribe">
-        <button onClick={overlay}>Subscribe</button>
+        <button onClick={overlay}>Get Project Updates</button>
         <div id="myModal">
           <button id="closeButton" onClick={overlay}>
             Close

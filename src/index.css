@@ -206,6 +206,11 @@ h3 {
   margin: 0 auto;
   text-align: center;
 }
+@media (min-width: 1400px) {
+  .Hero .CenterContent {
+    float: left;
+  }
+}
 .Home .Hero {
   background-image: url(/img/hero-image-sm.jpg);
   background-size: 100%;
@@ -226,11 +231,25 @@ h3 {
   color: #fff;
   font-weight: 700;
   margin-bottom: 10px;
+  text-align: center;
+  margin-left: 35px;
+}
+@media (min-width: 1400px) {
+  .Home .Hero h1 {
+    text-align: left;
+  }
 }
 .Home .Hero h2 {
   color: #fff;
   font-weight: 100;
   font-size: 1.8rem;
+  text-align: center;
+  margin-left: 35px;
+}
+@media (min-width: 1400px) {
+  .Home .Hero h2 {
+    text-align: left;
+  }
 }
 .Home .Hero .Scroll {
   display: block;
@@ -566,13 +585,24 @@ h3 {
 .Subscribe button {
   position: absolute;
   cursor: pointer;
-  left: 150px;
+  left: 105px;
   top: 6px;
   padding: 6px 12px;
   font-size: 1.2rem;
   color: #fff;
   border-radius: 20px;
   border: none;
+}
+@media (min-width: 1400px) {
+  .Subscribe button {
+    left: -145px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .Video {
+    display: none;
+  }
 }
 
 /* Modal */
@@ -593,4 +623,11 @@ h3 {
   top: 50px;
   left: 90%;
   color: white;
+}
+
+@media (max-width: 800px) {
+  #closeButton {
+    top: 90%;
+    left: 40%;
+  }
 }
