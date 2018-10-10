@@ -594,7 +594,7 @@ h3 {
   border: none;
 }
 @media (min-width: 1400px) {
-  .Subscribe button {
+  #subscribeButton {
     left: -145px;
   }
 }

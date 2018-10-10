@@ -1,6 +1,6 @@
 import React from "react";
 
-class Subscribe extends React.Component {
+class Subscribe2 extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -17,9 +17,7 @@ class Subscribe extends React.Component {
 
     return (
       <div className="Subscribe">
-        <button id="subscribeButton" onClick={overlay}>
-          Get Project Updates
-        </button>
+        <button onClick={overlay}>Get Project Updates</button>
         <div id="myModal">
           <button id="closeButton" onClick={overlay}>
             Close
@@ -36,4 +34,4 @@ class Subscribe extends React.Component {
   }
 }
 
-export default Subscribe;
+export default Subscribe2;

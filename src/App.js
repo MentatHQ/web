@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HomeTabs from "./elements/HomeTabs";
 import Subscribe from "./elements/Subscribe";
+import Subscribe2 from "./elements/Subscribe2";
 import Team from "./elements/Team";
 import scrollTo from "./utils/scrollTo";
 
@@ -226,7 +227,7 @@ class App extends Component {
         </section>
         <section className="MailingList">
           <h3>Join our mailing list for updates</h3>
-          <Subscribe />
+          <Subscribe2 />
         </section>
         <section className="Footer">
           <div className="CenterContent">
