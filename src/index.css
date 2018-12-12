@@ -218,13 +218,13 @@ h3 {
   background-repeat: no-repeat;
   height: 600px;
   height: 100vh;
-  padding: 35vh 20px;
+  padding: 35vh 10px 35vh 30px;
   background-color: #0a0120;
   position: relative;
 }
 @media (max-width: 800px) {
   .Home .Hero {
-    padding: 32vh 20px;
+    padding: 32vh 0px;
   }
 }
 .Home .Hero h1 {
@@ -232,7 +232,6 @@ h3 {
   font-weight: 700;
   margin-bottom: 10px;
   text-align: center;
-  margin-left: 35px;
 }
 @media (min-width: 1400px) {
   .Home .Hero h1 {
@@ -244,7 +243,8 @@ h3 {
   font-weight: 100;
   font-size: 1.8rem;
   text-align: center;
-  margin-left: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 @media (min-width: 1400px) {
   .Home .Hero h2 {
@@ -595,7 +595,7 @@ h3 {
 }
 @media (min-width: 1400px) {
   #subscribeButton {
-    left: -145px;
+    left: -175px;
   }
 }
 
