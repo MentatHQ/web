@@ -190,31 +190,12 @@ class App extends Component {
           <div className="Intro CenterContent">
             <h2 id="about">What is Mentat?</h2>
             <p>
-              Mentat is a blockchain-powered marketplace where applications can
-              source intelligence from an on-demand, distributed workforce of
-              human agents. The platform’s query-response smart contracts enable
-              human intelligence tasks to plug in to computer processes
-              asynchronously, eliminating the time and cost inefficiencies
-              typically associated with human workers.
-            </p>
-            <p>
-              Mentat’s pricing model ensures that human agents are always
-              available to meet the next request. The platform’s distributed
-              ledger tracks agents’ unique skills, allowing applications to
-              query only the most qualified agents, and a system of peer review
-              maintains quality while moving more work towards the most
-              successful agents. Crypto-economic stakes for all parties ensure
-              fast, high-quality work and fair rates.
-            </p>
-            <p>
-              Mentat enables anyone, from anywhere in the world, to offer their
-              skills and knowledge in exchange for instant payment. By allowing
-              applications to delegate only value-adding human intelligence
-              tasks, the value of agents’ time is increased, while also
-              improving the business efficiency of participating applications.
-              Mentat combines a machine-focused process with human-focused
-              pricing, allowing fair earnings and business efficiency to
-              coexist.
+              Mentat is an open source, decentralized digital work platform for
+              global cooperation without boundaries. Skill markets created on
+              Mentat enable anyone in the world to exchange their unique skills
+              and expertise for crypto payment without fees. Mentat paves the
+              way for the distributed future of work which is more accessible,
+              equitable, and efficient for all.
             </p>
           </div>
           <div className="Description">
