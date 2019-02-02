@@ -3,10 +3,10 @@ services:
   - docker
 
 before_install:
-  - docker build -t MentatHQ/web -f Dockerfile.dev .
+  - docker build -t mentatHQ/web -f Dockerfile.dev .
 
 script:
-  - docker run MentatHQ/web npm run test -- --coverage
+  - docker run mentatHQ/web npm run test -- --coverage
 
 deploy:
   provider: elasticbeanstalk
