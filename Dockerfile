@@ -1,11 +1,11 @@
 #Build phase
 FROM node:alpine as builder
 
-WORKDIR '/home/app'
+WORKDIR /app
 
 COPY package.json .
 
-RUN yarn
+RUN npm install
 
 COPY . .
 
@@ -16,4 +16,4 @@ FROM nginx
 
 EXPOSE 80
 
-COPY --from=builder /home/app/build /usr/share/nginx/html
+COPY --from=builder /app/build /usr/share/nginx/html
