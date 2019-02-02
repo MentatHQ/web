@@ -1,7 +1,7 @@
 #Build phase
 FROM node:alpine as builder
 
-WORKDIR /home/app
+WORKDIR '/home/app'
 
 COPY package.json .
 
@@ -17,5 +17,3 @@ FROM nginx
 EXPOSE 80
 
 COPY --from=builder /home/app/build /usr/share/nginx/html
-
-
