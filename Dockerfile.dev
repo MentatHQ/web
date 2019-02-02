@@ -1,0 +1,11 @@
+FROM node:alpine
+
+WORKDIR "/home"
+
+COPY package.json .
+
+RUN yarn
+
+COPY . .
+
+CMD ["npm", "start"]
