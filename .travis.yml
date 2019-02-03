@@ -17,7 +17,7 @@ deploy:
   provider: elasticbeanstalk
   region: us-east-1
   app: mentat-web
-  env: MentatWeb-env
+  env: MentatWeb-env-1
   bucket_name: elasticbeanstalk-us-east-1-826390608521
   bucket_path: mentat-web
   on:
