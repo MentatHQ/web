@@ -15,13 +15,13 @@ after_success:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-1"
-  app: "mentat-web"
-  env: "MentatWeb-env"
-  bucket_name: "elasticbeanstalk-us-east-1-826390608521"
-  bucket_path: "mentat-web"
+  region: us-east-1
+  app: mentat-web
+  env: MentatWeb-env
+  bucket_name: elasticbeanstalk-us-east-1-826390608521
+  bucket_path: mentat-web
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+    secure: $AWS_SECRET_KEY
