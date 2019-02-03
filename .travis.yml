@@ -9,16 +9,15 @@ script:
   - docker run mentathq/react-test npm run test -- --coverage
 
 after_success:
-  - docker build -t mentathq/web:latest .
-  # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - docker login -u "$DOCKER_ID" -p "$DOCKER_PASSWORD"
-  - docker push mentathq/web:latest
+  - docker build -t mentathq/web .
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - docker push mentathq/web
 
 deploy:
   provider: elasticbeanstalk
   region: us-east-1
   app: mentat-web
-  env: MentatWeb-env
+  env: MentatWeb-env-1
   bucket_name: elasticbeanstalk-us-east-1-826390608521
   bucket_path: mentat-web
   on:
