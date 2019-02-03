@@ -9,9 +9,9 @@ script:
   - docker run mentathq/react-test npm run test -- --coverage
 
 after_success:
-  - docker build -t mentathq/web .
+  - docker build -t mentathq/web:latest .
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - docker push mentathq/web
+  - docker push mentathq/web:latest
 
 deploy:
   provider: elasticbeanstalk
