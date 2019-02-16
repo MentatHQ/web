@@ -16,6 +16,8 @@ FROM nginx
 
 EXPOSE 80
 
-COPY default.conf /etc/nginx/conf.d/
+COPY nginx.conf /etc/nginx/nginx.conf
 
 COPY --from=builder /app/build /usr/share/nginx/html
+
+ENTRYPOINT ["nginx","-g","daemon off;"]
