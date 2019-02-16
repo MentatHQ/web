@@ -16,6 +16,6 @@ FROM nginx
 
 EXPOSE 80
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY default.conf /etc/nginx/conf.d/
 
 COPY --from=builder /app/build /usr/share/nginx/html
