@@ -605,6 +605,10 @@ h3 {
   }
 }
 
+#about {
+  text-align: center;
+}
+
 /* Modal */
 
 #myModal {

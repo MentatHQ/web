@@ -203,7 +203,7 @@ class App extends Component {
           </div>
         </section>
         <section className="Team" id="team">
-          <h2 id="about">Our Team</h2>
+          {/* <h2 id="about">Our Team</h2> */}
           <Team />
         </section>
         <section className="MailingList">
